@@ -1,0 +1,43 @@
+.factura {
+    table-layout: fixed;
+}
+
+.fact-info>div>h5 {
+    font-weight: bold;
+}
+
+.factura>thead {
+    border-top: solid 3px rgb(133, 123, 123);
+    border-bottom: 3px solid rgb(196, 190, 190);
+}
+
+.factura>thead>tr>th:nth-child(2),
+.factura>tbod>tr>td:nth-child(2) {
+    width: 300px;
+}
+
+.factura>thead>tr>th:nth-child(n+3) {
+    text-align: right;
+}
+
+.factura>tbody>tr>td:nth-child(n+3) {
+    text-align: right;
+}
+
+#precio {
+    color: rgb(241, 98, 98);
+}
+
+.encabezado {
+    color: rgb(77, 87, 86);
+}
+
+.factura>tfoot>tr>th,
+.factura>tfoot>tr>th:nth-child(n+3) {
+    font-size: 24px;
+    text-align: right;
+}
+
+.cond {
+    border-top: solid 2px rgb(138, 128, 128);
+}
